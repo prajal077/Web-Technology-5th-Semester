@@ -1,0 +1,22 @@
+.name {
+    background-color: aqua;
+    font-family: 'Courier New', Courier, monospace;
+    cursor: pointer;
+    transition: all;
+}
+
+#body {
+    background-color: antiquewhite;
+}
+/* 
+div {
+    height: 505px;
+    width: 500px;
+    background-color: aliceblue;
+    color: red;
+    box-shadow: inset;
+    border-radius: 40px;
+} */
+#ram{
+    color: rgb(106, 22, 223);
+}
