@@ -1,0 +1,12 @@
+body {
+    background-color: grey;
+}
+
+#image {
+    height: 100px;
+}
+
+#para {
+    font-weight: 500;
+    text-transform: capitalize;
+}
