@@ -1,0 +1,9 @@
+body {
+    background-color: bisque;
+    background-image: url("Screenshot 2025-02-12 033827.png");
+    background-size:100px;
+}
+
+.text {
+    color: rgb(246, 90, 0);
+}
