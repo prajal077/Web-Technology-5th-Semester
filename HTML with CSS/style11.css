@@ -1,0 +1,76 @@
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body{
+    background-color: black;
+    margin: 0px;
+    padding: 0px;
+}
+
+.top{    
+     display: flex;
+     justify-content: center;
+     align-content: center;
+     margin-top: 70px;
+    
+}
+.top p{
+    height: 20px;
+    width: 220px;
+    color: white;
+    border: 5px white;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: rgb(42, 40, 40);
+
+}
+
+.main{
+    height: 200px;
+    width: 370px;
+    text-align: center;
+    position: relative;
+    left: 420px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.main h1 {
+    color: white;
+}
+
+.para {
+    height: 200px;
+    width: 370px;
+    text-align: center;
+    position: relative;
+    left: 420px;
+    /* margin-bottom: 50px0; */
+    bottom: 100px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.para p {
+    color: silver;
+    font-size: small;
+
+}
+
+button {
+    all: unset; /* सबै default styles हटाउने*/
+    color: white;
+    background-color: blue;
+    border-radius: 15px;
+    padding: 5px;
+    cursor: pointer; /* Pointer cursor राख्ने */
+    position: relative;
+    bottom: 220px;
+    left: 555px;
+
+}
+
+
