@@ -44,3 +44,15 @@
     cursor: pointer;
     z-index: 10;
 }
+
+.search {
+    position:relative;
+    top: 70px;
+    left: 50%;
+}
+
+.icon {
+    /* position: absolute;
+    top: 0px;
+    right: 0px; */
+} 
