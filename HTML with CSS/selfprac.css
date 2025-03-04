@@ -7,6 +7,8 @@ body {
     /* background-color:bisque; */
     height: 20px;
     position: relative;
+    height: 30px;
+    padding: 7px;
 
 }
 
@@ -70,10 +72,8 @@ body {
 }
 
 .title h3 {
-    justify-content: center;
-    align-items: center;
     position: relative;
-    left: 100px;
+    left: 90px;
     color: orange;
     font: bold;
 }
@@ -93,5 +93,32 @@ body {
 }
 
 .log {
+    color: black;
+    background-color:orange;
+    width: 280px;
+    margin-left: 30px;
+    border-radius: 10px;
+    padding: 2px;
+    position: relative;
+    top: 100px;
+}
+
+.log h3 {
+    position: relative;
+    left: 110px;
+}
+
+.sign {
     color: red;
+    position: relative;
+    width: 280px;
+    top: 110px;
+    left: 40px;
+    /* background-color: aquamarine; */
+}
+
+.in {
+    position: absolute;
+    right: 0px;
+    top: 0px;
 }
