@@ -6,12 +6,13 @@ body {
     color: white;
     /* background-color:bisque; */
     height: 20px;
+    position: relative;
 
 }
 
 .nav a {
     color: white;
-    padding: 110px;
+    padding: 80px;
     text-decoration: none;
 }
 
@@ -21,4 +22,28 @@ body {
 
 .nav li {
     display: inline-block;
+}
+
+.search {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+
+.main {
+    color: white;
+    background-color: bisque;
+    width: 200px;
+    height: 110px;
+    font: bold;
+    position: relative;
+    top: 100px;
+    left: 100px;
+}
+
+.lorem {
+    background-color: blueviolet;
+    position: relative;
+    top: 110px;
+    width: 600px;
 }
