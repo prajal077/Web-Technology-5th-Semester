@@ -106,6 +106,7 @@ body {
 .log h3 {
     position: relative;
     left: 110px;
+    cursor: pointer;
 }
 
 .sign {
