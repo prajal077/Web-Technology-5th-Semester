@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form validation</title>
+</head>
+
+<body>
+    <form action="action.php" id="form">
+        <label for="username">username</label>
+        <input type="text" id="username">
+
+        <label for="password">password</label>
+        <input type="password" id="password"> <br>
+
+        <span id="error" style="color:red"></span> <br>
+        <br>
+        <button type="submit">submit</button>
+    </form>
+
+    <script>
+        document.getElementById("form").addEventListener("submit", function (event) {
+            event.preventDefault();
+
+            let username = document.getElementById("username").value;
+            let password = document.getElementById("password").value;
+
+            let errormsg = document.getElementById("error");
+
+            if(username.trim() ==="") {
+                errormsg.textContent = "username cannot be empty!!";
+                alert("Username or password cannot be empty!!!");
+            } 
+            else if (password.trim() === "") {
+                errormsg.textContent = "Password cannot be empty!!";
+                alert("Username or password cannot be empty!!!");
+            }
+
+            else {
+                errormsg.textContent = "";
+                console.log("username: ", username);
+                console.log("password: ", password);
+            }
+        })
+    </script>
+</body>
+
+</html>
