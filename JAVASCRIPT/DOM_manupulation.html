@@ -17,9 +17,15 @@
     <div id="content"></div>
 
     <script>
-        
-        function changeText () {
+
+        function changeText() {
             document.getElementById("heading").textContent = "Text Changed";
+        }
+
+        function addText() {
+            let newPara = document.createElement("p");
+            newPara.textContent = "This is the new added paragraph";
+            document.getElementById("content").appendChild(newPara);
         }
 
     </script>
