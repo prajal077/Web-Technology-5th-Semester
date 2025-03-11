@@ -1,4 +1,4 @@
-document.getElementById("form").addEventListener('submit', function(event) {
+document.getElementById("form").addEventListener('submit', function (event) {
     event.preventDefault();
 
     let fname = document.getElementById("fname").value;
@@ -10,4 +10,4 @@ document.getElementById("form").addEventListener('submit', function(event) {
     console.log("Firstname : ", fname);
     console.log("Lastname : ", lname);
     console.log("Age : ", age);
-})
+});
