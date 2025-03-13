@@ -5,7 +5,12 @@ function appendToDisplay(input) {
 }
 
 function calculate() {
-    display.value = eval(display.value) ;
+
+    try {
+        display.value = eval(display.value);
+    } catch (error) {
+        console.log("syntax error");
+    }
 }
 
 function clearDisplay() {
