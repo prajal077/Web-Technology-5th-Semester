@@ -37,7 +37,7 @@ button {
 }
 
 #display {
-    width: 100%;
+    width: 95%;
     font-size: 5rem;
     text-align: right;
     border: none;
@@ -45,9 +45,10 @@ button {
     padding: 17px;
     /* border: 2px solid white; */
     color: white;
+    overflow: hidden;
 }
 
-button:hover{
+button:hover {
     background-color: rgb(88, 86, 86);
 }
 
