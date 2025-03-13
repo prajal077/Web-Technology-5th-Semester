@@ -3,6 +3,8 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
+    background-color: rgb(133, 131, 131);
+
 }
 
 
@@ -26,7 +28,7 @@ button {
 }
 
 #calculator {
-    border: 3px solid red;
+    /* border: 3px solid red; */
     font-family: Arial, Helvetica, sans-serif;
     background-color: rgb(48, 46, 46);
     max-width: 500px;
@@ -41,7 +43,15 @@ button {
     border: none;
     background-color: rgb(99, 97, 97);
     padding: 17px;
-    border: 2px solid white;
+    /* border: 2px solid white; */
     color: white;
+}
+
+button:hover{
+    background-color: rgb(88, 86, 86);
+}
+
+button:active {
+    background-color: rgb(152, 148, 148);
 
 }
