@@ -55,3 +55,16 @@ button:active {
     background-color: rgb(152, 148, 148);
 
 }
+
+.operators {
+    background-color: rgb(214, 140, 2);
+}
+
+.operators:hover {
+    background-color: rgb(245, 187, 70);
+}
+
+.operators:active {
+    background-color: rgb(204, 141, 15);
+
+}
