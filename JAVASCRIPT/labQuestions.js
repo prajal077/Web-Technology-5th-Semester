@@ -15,3 +15,23 @@ console.log(typeof n);
 console.log(typeof bool);
 console.log(typeof und);
 console.log(typeof nulla);
+
+//Question 3
+if(true) {
+    let nu = 20;  //only block scope
+    console.log(nu);
+}
+//console.log(nu); since let is block scope, it is not executed
+
+if(true) {
+    var v = 30;  //global scope
+    console.log(v);
+}
+console.log(v); //since var is global scope, this is also executed
+
+if (true) {
+    const c = 55;  //block scope
+    console.log(c); 
+}
+//console.log(c); since const is also block scope, this is not executed
+
