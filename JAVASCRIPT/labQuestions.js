@@ -40,8 +40,18 @@ if (true) {
 let n1 = 10;
 let n2 = 20;
 
-console.log(n1+n2);
-console.log(n1-n2);
-console.log(n1/n2);
-console.log(n1*n2);
-console.log(n1%n2);
+console.log(n1 + n2);
+console.log(n1 - n2);
+console.log(n1 / n2);
+console.log(n1 * n2);
+console.log(n1 % n2);
+
+//question 5
+
+// let nm = parseInt(prompt("Enter a number to check odd or even"));
+// if (nm % 2 == 0) {
+//     console.log("This is even number");
+// }
+// else {
+//     console.log("This is odd number");
+// }
