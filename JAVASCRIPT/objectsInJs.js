@@ -22,3 +22,17 @@ console.log(person.name)
 std.class = "bachelor"
 console.log(std)
 
+// modifying the values of or in the object
+
+// 1. replacing the value of existing key
+
+let obj = {
+    name : "object", 
+    age : "2 seconds", 
+    hobby : "singing"
+};
+
+console.log(obj)
+
+obj.hobby = "dancing";
+console.log(obj)
