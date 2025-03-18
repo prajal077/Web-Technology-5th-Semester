@@ -55,3 +55,4 @@ console.log(n1 % n2);
 // else {
 //     console.log("This is odd number");
 // }
+
