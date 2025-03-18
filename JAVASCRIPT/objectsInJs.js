@@ -16,3 +16,9 @@ console.log(std);
 
 console.log(std.age)
 console.log(person.name)
+
+// passing the value in the existing objects
+
+std.class = "bachelor"
+console.log(std)
+
