@@ -11,3 +11,8 @@ console.log(person)
 
 const std = { name : "aalu", age : 22}
 console.log(std);
+
+// accessing the value of abjects
+
+console.log(std.age)
+console.log(person.name)
