@@ -36,3 +36,8 @@ console.log(obj)
 
 obj.hobby = "dancing";
 console.log(obj)
+
+// 2. deleting the key of object
+
+delete obj.age
+console.log(obj)
