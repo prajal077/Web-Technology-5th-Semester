@@ -41,3 +41,15 @@ console.log(obj)
 
 delete obj.age
 console.log(obj)
+
+//js objects method
+
+let bob = {
+    name : "bob", 
+    age : 19, 
+
+    greet : function () {
+        console.log("bob says hi");
+    }
+}
+bob.greet();
