@@ -5,7 +5,11 @@ const person = {
     age: 20
 };
 
-console.log(person)
+const praj = {
+    name: "prajal",
+    age: 20
+};
+console.log(praj)
 
 // or we can also do in single line
 
