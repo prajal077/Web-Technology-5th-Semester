@@ -23,6 +23,8 @@ console.log(car);
 
 console.log(std.age)
 console.log(person.name)
+console.log(car.name)
+console.log(car.model)
 
 // passing the value in the existing objects
 
