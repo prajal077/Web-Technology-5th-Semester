@@ -16,6 +16,9 @@ console.log(praj)
 const std = { name: "aalu", age: 22 }
 console.log(std);
 
+const car = { name: "mercedes", model: 2025 }
+console.log(car);
+
 // accessing the value of abjects
 
 console.log(std.age)
