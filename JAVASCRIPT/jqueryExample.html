@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>jQuery Hide Example</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("#hide").click(function () {
+                $("p").hide();
+            })
+
+            $("#show").click(function () {
+                $("P").show();
+            })
+        })
+    </script>
+</head>
+
+<body>
+    <p>This is paragraph</p>
+    <button id="hide">hide parahraph</button> <br> <br>
+    <button id="show">Show paragraph</button>
+</body>
+
+</html>
